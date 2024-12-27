@@ -4,8 +4,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 @app.route('/')
 def say_hi():
-    system = os.getenv('APP_SYSTEM')
-    message = 'Hi!'
+   message = 'Hi!'
     return message
 
 if __name__ == "__main__":
