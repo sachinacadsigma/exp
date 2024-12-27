@@ -1,1 +1,13 @@
+Flask==2.3.3
+requests==2.31.0
+werkzeug
+langchain-community
+langchain-huggingface
+faiss-cpu
+PyPDF2
+docx2txt
+langchain
+openai==1.55.3
+requests==2.31.0
+regex==2023.6.3
 
