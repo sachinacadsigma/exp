@@ -7,3 +7,5 @@ faiss-cpu
 PyPDF2
 docx2txt
 langchain
+regex==2023.6.3
+langchain-openai
