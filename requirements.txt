@@ -1,8 +1,6 @@
 Flask==2.3.3
 requests==2.31.0
 werkzeug
-langchain-huggingface
-faiss-cpu
 PyPDF2
 docx2txt
 requests==2.31.0
