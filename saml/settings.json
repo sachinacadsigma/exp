@@ -1,6 +1,6 @@
 {
   "sp": {
-    "entityId": "lang-trans-sso",
+    "entityId": "https://pto-dev-gya0dtbgdha3dzd0.southindia-01.azurewebsites.net/saml/meta",
     "assertionConsumerService": {
       "url": "https://pto-dev-gya0dtbgdha3dzd0.southindia-01.azurewebsites.net/saml/callback",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
