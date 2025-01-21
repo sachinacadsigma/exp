@@ -6,7 +6,7 @@
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     },
     "singleLogoutService": {
-      "url": "https://login.microsoftonline.com/b7fc2166-4e80-4e62-a02a-814560e30976/saml2/logout",
+      "url": "http://127.0.0.1:5000/logout/callback",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     },
     "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
