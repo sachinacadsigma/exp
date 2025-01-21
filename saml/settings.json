@@ -1,0 +1,22 @@
+{
+  "sp": {
+    "entityId": "lang-trans-sso",
+    "assertionConsumerService": {
+      "url": "https://test-12-h3cgcrgjhmdhhses.centralindia-01.azurewebsites.net/saml/callback",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+    },
+    "singleLogoutService": {
+      "url": "http://127.0.0.1:5000/logout/callback",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    },
+    "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
+  },
+  "idp": {
+    "entityId": "https://sts.windows.net/b7fc2166-4e80-4e62-a02a-814560e30976/",
+    "singleSignOnService": {
+      "url": "https://login.microsoftonline.com/b7fc2166-4e80-4e62-a02a-814560e30976/saml2",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    },
+  "x509cert": "-----BEGIN CERTIFICATE-----\nMIIC8DCCAdigAwIBAgIQY1XONbLaDqRNpMHAjeXEdTANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQD\nEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yNDEwMjcwNzE4\nMTdaFw0yNzEwMjcwNzE4MTdaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQg\nU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp9DG78rrPLec\nlSYLap6D9If4B3rA3mJLezeVX2YTW/L/QPcCKaBc2swLTh6f+MR4z6xKNsEiNUWDTODTFMhpOITX\noi4/8OjokfbXv20L/sLyGbQFBwAXrzEmOclnZ7fr1f5VpmBhfWAGhm469B6gG7I72UZgee9Y3Sus\nqf/4UWUShwKSAh1t9f/PyfPpSPWW2KcOHhmM9Atj2+zjCuNkVtUq3DqR6tXHHZHvZ6PwfSKT/QYo\nYAmgmhpmkcSYL7Cd40oZQDbOar9nDGSjD0HVXkTw+x1dXdiqBBN4w49lqtbWarhpv24GAqQ/rler\nH3mHpKGyayrOkoGia/N8RQYzqQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA/2kTQNRexIqmJuXYb\nJ++XATf4qHPf7fgI3nsM4Ca+cp/lzcqFskpKgW41rth1imDp9NRNlIyugC86avbR+oNvZx4efvRj\nlLGXQ4NEkmQc0o8HemkR0L7ZHcklJYHWSpFf9fjiWIqHPFMdq1xuJMuarCeErtsbwWylc22RtWel\n0bFzs34lalkrfwr/Cn9iFWJPXecesJuCRPEJUA0PFdY3+A7zQcZ3CbBPZwnozRbNGC6wnZtCOZ9W\nTzeAIus6bXdFyWnOvNlfKf2MWz3UbDEXGbL4YGxQEevcpo2KqhDoQWfiEJd8Ap/JqslhV8+70DdG\nMmn1P6uYBpeOX5dSIclv\n-----END CERTIFICATE-----"
+}
+}
